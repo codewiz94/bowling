@@ -335,6 +335,105 @@ header h2 {
   }
 }
 
+/* line 1, ../portfolio/bowling_bar/scss/_section-contact.scss */
+.section-contact {
+  background-color: #000000;
+  color: #F5F5F5;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+/* line 10, ../portfolio/bowling_bar/scss/_section-contact.scss */
+.contact h2 {
+  font-size: clamp(1.95rem, calc(0.74vw + 1.77rem), 2.37rem);
+}
+
+/* line 18, ../portfolio/bowling_bar/scss/_section-contact.scss */
+.article-contact h3 {
+  padding: 2rem 0;
+  font-size: clamp(1.56rem, calc(0.38vw + 1.47rem), 1.78rem);
+}
+
+/* line 23, ../portfolio/bowling_bar/scss/_section-contact.scss */
+.article-contact .adress {
+  display: inline-block;
+  text-align: left;
+  list-style: none;
+  padding-bottom: 2rem;
+}
+
+/* line 29, ../portfolio/bowling_bar/scss/_section-contact.scss */
+.article-contact .adress li {
+  font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
+  line-height: 1.5;
+}
+
+/* line 34, ../portfolio/bowling_bar/scss/_section-contact.scss */
+.article-contact .adress li:first-of-type {
+  text-align: center;
+  font-size: clamp(1.56rem, calc(0.38vw + 1.47rem), 1.78rem);
+}
+
+/* line 40, ../portfolio/bowling_bar/scss/_section-contact.scss */
+.article-contact p {
+  font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
+  text-decoration: underline;
+}
+
+/* line 45, ../portfolio/bowling_bar/scss/_section-contact.scss */
+.article-contact .mobile-mail {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
+  line-height: 1.5;
+}
+
+/* line 52, ../portfolio/bowling_bar/scss/_section-contact.scss */
+.article-contact .mobile-mail .mobile,
+.article-contact .mobile-mail .mail {
+  list-style: none;
+}
+
+/* line 56, ../portfolio/bowling_bar/scss/_section-contact.scss */
+.article-contact .mobile-mail .mobile li a,
+.article-contact .mobile-mail .mail li a {
+  color: #F5F5F5;
+}
+
+/* line 60, ../portfolio/bowling_bar/scss/_section-contact.scss */
+.article-contact .mobile-mail .mobile li:first-of-type,
+.article-contact .mobile-mail .mail li:first-of-type {
+  font-size: clamp(1.95rem, calc(0.74vw + 1.77rem), 2.37rem);
+}
+
+/* line 66, ../portfolio/bowling_bar/scss/_section-contact.scss */
+.article-contact .hours-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style: none;
+  column-gap: 2rem;
+  font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
+}
+
+/* line 73, ../portfolio/bowling_bar/scss/_section-contact.scss */
+.article-contact .hours-list li:nth-child(2n) {
+  justify-self: start;
+}
+
+/* line 77, ../portfolio/bowling_bar/scss/_section-contact.scss */
+.article-contact .hours-list li:not(li:nth-child(2n)) {
+  justify-self: end;
+  padding-right: 3rem;
+}
+
+@media (max-width: 500px) {
+  /* line 86, ../portfolio/bowling_bar/scss/_section-contact.scss */
+  .article-contact .mobile-mail {
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+}
+
 /* line 11, ../portfolio/bowling_bar/scss/main.scss */
 html {
   box-sizing: border-box;
