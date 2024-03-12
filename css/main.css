@@ -316,6 +316,25 @@ header h2 {
   border-radius: 5px;
 }
 
+@media (max-width: 1000px) {
+  /* line 69, ../portfolio/bowling_bar/scss/_section-event.scss */
+  .section-event {
+    padding-bottom: 4rem;
+  }
+  /* line 73, ../portfolio/bowling_bar/scss/_section-event.scss */
+  .article-event {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  /* line 80, ../portfolio/bowling_bar/scss/_section-event.scss */
+  .article-event {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* line 10, ../portfolio/bowling_bar/scss/main.scss */
 html {
   box-sizing: border-box;

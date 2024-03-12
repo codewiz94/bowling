@@ -63,3 +63,22 @@
         }
     }
 }
+
+@media (max-width: 1000px) {
+
+    .section-event {
+        padding-bottom: 4rem;
+    }
+
+    .article-event {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .article-event {
+        grid-template-columns: 1fr;
+
+    }
+}
