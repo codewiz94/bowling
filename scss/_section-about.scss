@@ -1,5 +1,6 @@
 .section-about {
     background-color: $color-bg-lt;
+    padding-bottom: 2rem;
 }
 
 .about {
@@ -54,6 +55,7 @@
         text-transform: uppercase;
         padding: 1rem 2rem;
         font-weight: 700;
+        border-radius: 5px;
     }
 }
 

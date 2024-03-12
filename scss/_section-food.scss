@@ -1,4 +1,64 @@
 .section-food {
     background-color: $color-bg-dk;
     color: $color-font-lt;
+    padding-bottom: 2rem;
+}
+
+.heading-wrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    h2 {
+        position: absolute;
+        display: inline-block;
+        background-color: $color-font-other;
+        border: 5px solid $color-font-dk;
+        padding: 0.75rem 1rem;
+        bottom: -2rem;
+    }
+}
+
+.food-info {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    place-items: center;
+    text-align: right;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+
+}
+
+.drink-info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    place-items: center;
+    padding-bottom: 2rem;
+}
+
+.food-content,
+.drink-content {
+    h3 {
+        font-size: $fs-xl;
+        text-decoration: underline;
+        text-decoration-color: $color-font-other;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 8px;
+    }
+    p {
+        font-size: $fs-md;
+        line-height: 1.25;
+        padding-bottom: 2rem;
+    }
+
+    a {
+        font-size: $fs-base;
+        background-color: $color-bg-other;
+        color: $color-font-lt;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 1rem 2rem;
+        letter-spacing: 1.5px;
+        border-radius: 5px;
+    }
 }
