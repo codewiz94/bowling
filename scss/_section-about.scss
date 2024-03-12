@@ -59,3 +59,15 @@
 
 // MEDIA QUERIES
 
+@media (max-width: 900px) {
+    .article-about {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 3rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .article-about {
+        grid-template-columns: 1fr;
+    }
+}

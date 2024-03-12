@@ -134,6 +134,21 @@ header h2 {
   font-weight: 700;
 }
 
+@media (max-width: 900px) {
+  /* line 63, ../portfolio/bowling_bar/scss/_section-about.scss */
+  .article-about {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3rem;
+  }
+}
+
+@media (max-width: 450px) {
+  /* line 70, ../portfolio/bowling_bar/scss/_section-about.scss */
+  .article-about {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* line 8, ../portfolio/bowling_bar/scss/main.scss */
 html {
   box-sizing: border-box;
