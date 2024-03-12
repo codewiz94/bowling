@@ -13,3 +13,12 @@ $color-btn-lt: #F5F5F5;
 $color-btn-dk: #000000;
 $color-btn-other: #ED1C24;
 
+//FONT SIZE
+$fs-sm: clamp(0.8rem, calc(-0.09vw + 0.82rem), 0.75rem);
+$fs-base: clamp(1rem, calc(0vw + 1rem), 1rem);
+$fs-md: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
+$fs-lg: clamp(1.56rem, calc(0.38vw + 1.47rem), 1.78rem);
+$fs-xl: clamp(1.95rem, calc(0.74vw + 1.77rem), 2.37rem);
+$fs-xxl: clamp(2.44rem, calc(1.27vw + 2.12rem), 3.16rem);
+$fs-xxxl: clamp(3.05rem, calc(2.06vw + 2.54rem), 4.21rem);
+

@@ -1,42 +1,108 @@
-/* DOC SETTINGS */
-/* line 3, ../portfolio/bowling_bar/scss/main.scss */
+/* line 1, ../portfolio/bowling_bar/scss/_header.scss */
+header {
+  height: 100vh;
+  background: url(../img/bg/header-bg.webp) no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #F5F5F5;
+}
+
+/* line 8, ../portfolio/bowling_bar/scss/_header.scss */
+header nav {
+  width: 100%;
+  border-bottom: 1px solid #F5F5F5;
+  max-height: 5rem;
+  padding: .5rem 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  font-size: clamp(0.8rem, calc(-0.09vw + 0.82rem), 0.75rem);
+}
+
+/* line 18, ../portfolio/bowling_bar/scss/_header.scss */
+header nav ul {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  list-style: none;
+}
+
+/* line 24, ../portfolio/bowling_bar/scss/_header.scss */
+header nav ul li {
+  place-self: center;
+}
+
+/* line 27, ../portfolio/bowling_bar/scss/_header.scss */
+header nav ul li a {
+  padding: 1rem 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  color: #F5F5F5;
+}
+
+/* line 34, ../portfolio/bowling_bar/scss/_header.scss */
+header nav ul li a img {
+  max-width: 40%;
+  filter: drop-shadow(2px 2px 2px #000000);
+}
+
+/* line 42, ../portfolio/bowling_bar/scss/_header.scss */
+header h1 {
+  padding-top: clamp(13rem, calc(9.3514rem + 15.5676vw), 22rem);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 1;
+  font-size: clamp(2.44rem, calc(1.27vw + 2.12rem), 3.16rem);
+  font-weight: 900;
+  text-shadow: 4px 3px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* line 53, ../portfolio/bowling_bar/scss/_header.scss */
+header h2 {
+  padding: 1rem 1rem;
+  line-height: 1.5;
+  font-size: clamp(1.56rem, calc(0.38vw + 1.47rem), 1.78rem);
+  font-weight: 700;
+  text-shadow: 4px 3px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* line 8, ../portfolio/bowling_bar/scss/main.scss */
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
 }
 
-/* line 9, ../portfolio/bowling_bar/scss/main.scss */
+/* line 14, ../portfolio/bowling_bar/scss/main.scss */
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* line 13, ../portfolio/bowling_bar/scss/main.scss */
+/* line 18, ../portfolio/bowling_bar/scss/main.scss */
 html, body {
   height: 100%;
   padding: 0;
   margin: 0;
 }
 
-/* line 19, ../portfolio/bowling_bar/scss/main.scss */
+/* line 24, ../portfolio/bowling_bar/scss/main.scss */
 img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
 }
 
-/* line 25, ../portfolio/bowling_bar/scss/main.scss */
+/* line 30, ../portfolio/bowling_bar/scss/main.scss */
 ul {
   margin: 0;
   padding-left: 0;
 }
 
-/* line 30, ../portfolio/bowling_bar/scss/main.scss */
+/* line 35, ../portfolio/bowling_bar/scss/main.scss */
 a {
   text-decoration: none;
 }
 
-/* line 34, ../portfolio/bowling_bar/scss/main.scss */
+/* line 39, ../portfolio/bowling_bar/scss/main.scss */
 h1,
 h2,
 h3,
@@ -45,6 +111,18 @@ h5,
 h6 {
   margin: 0;
   text-transform: uppercase;
+}
+
+/* line 49, ../portfolio/bowling_bar/scss/main.scss */
+main,
+section {
+  max-width: 100%;
+}
+
+/* line 54, ../portfolio/bowling_bar/scss/main.scss */
+.content {
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=main.css.map */

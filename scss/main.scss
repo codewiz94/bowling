@@ -1,4 +1,9 @@
-/* DOC SETTINGS */
+@import 'variables.scss';
+@import 'header.scss';
+@import 'section-about.scss';
+@import 'footer.scss';
+
+// DOC SETTINGS 
 
 html {
     box-sizing: border-box;
@@ -39,4 +44,14 @@ h5,
 h6 {
     margin: 0;
     text-transform: uppercase;
+}
+
+main,
+section {
+    max-width: 100%;
+}
+
+.content {
+    max-width: 1300px;
+    margin: 0 auto;
 }
