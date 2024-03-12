@@ -1,0 +1,65 @@
+.section-event {
+    background: url(../img/bg/bar-gradient.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+
+    h2 {
+        color: $color-font-lt;
+        font-size: $fs-xl;
+        padding-top: 2rem;
+    }
+    p {
+        padding-top: 2rem;
+        color: $color-font-lt;
+        font-size: $fs-md;
+    }
+}
+
+.article-event {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+}
+
+.event-item {
+    filter: drop-shadow(1px 1px 1px $color-bg-dk);
+    padding-top: 4rem;
+
+    .icon-wrap {
+        background-color: $color-bg-lt;
+        display: inline-block;
+        border-radius: 50%;
+        padding: 1rem 1.8rem;
+        border-top: 6px solid $color-font-other;
+        font-size: $fs-xxl;
+    }
+
+    .event-item-content {
+        background-color: $color-bg-lt;
+        margin-top: -3rem;
+        padding: 0 0.5rem;
+        border-radius: 15px;
+        padding-bottom: 2rem;
+
+        h3 {
+            font-size: $fs-md;
+            padding-top: 6rem;
+        }
+
+        p {
+            color: $color-font-dk;
+            padding-bottom: 2rem;
+            font-size: $fs-md;
+        }
+
+        a {
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: $fs-base;
+            background-color: $color-btn-dk;
+            color: $color-font-lt;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+    }
+}

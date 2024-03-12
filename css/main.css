@@ -174,9 +174,10 @@ header h2 {
   border: 5px solid #000000;
   padding: 0.75rem 1rem;
   bottom: -2rem;
+  font-size: clamp(1.56rem, calc(0.38vw + 1.47rem), 1.78rem);
 }
 
-/* line 22, ../portfolio/bowling_bar/scss/_section-food.scss */
+/* line 23, ../portfolio/bowling_bar/scss/_section-food.scss */
 .food-info {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -186,7 +187,7 @@ header h2 {
   padding-bottom: 2rem;
 }
 
-/* line 32, ../portfolio/bowling_bar/scss/_section-food.scss */
+/* line 33, ../portfolio/bowling_bar/scss/_section-food.scss */
 .drink-info {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -194,7 +195,7 @@ header h2 {
   padding-bottom: 2rem;
 }
 
-/* line 41, ../portfolio/bowling_bar/scss/_section-food.scss */
+/* line 42, ../portfolio/bowling_bar/scss/_section-food.scss */
 .food-content h3,
 .drink-content h3 {
   font-size: clamp(1.95rem, calc(0.74vw + 1.77rem), 2.37rem);
@@ -204,7 +205,7 @@ header h2 {
   text-underline-offset: 8px;
 }
 
-/* line 48, ../portfolio/bowling_bar/scss/_section-food.scss */
+/* line 49, ../portfolio/bowling_bar/scss/_section-food.scss */
 .food-content p,
 .drink-content p {
   font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
@@ -212,7 +213,7 @@ header h2 {
   padding-bottom: 2rem;
 }
 
-/* line 54, ../portfolio/bowling_bar/scss/_section-food.scss */
+/* line 55, ../portfolio/bowling_bar/scss/_section-food.scss */
 .food-content a,
 .drink-content a {
   font-size: clamp(1rem, calc(0vw + 1rem), 1rem);
@@ -226,56 +227,133 @@ header h2 {
 }
 
 @media (max-width: 900px) {
-  /* line 68, ../portfolio/bowling_bar/scss/_section-food.scss */
+  /* line 69, ../portfolio/bowling_bar/scss/_section-food.scss */
   .food-info,
   .drink-info {
     grid-template-columns: 1fr;
     text-align: center;
   }
-  /* line 75, ../portfolio/bowling_bar/scss/_section-food.scss */
+  /* line 76, ../portfolio/bowling_bar/scss/_section-food.scss */
   .drink-info img {
     order: -1;
   }
 }
 
-/* line 9, ../portfolio/bowling_bar/scss/main.scss */
+/* line 1, ../portfolio/bowling_bar/scss/_section-event.scss */
+.section-event {
+  background: url(../img/bg/bar-gradient.png) no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+/* line 6, ../portfolio/bowling_bar/scss/_section-event.scss */
+.section-event h2 {
+  color: #F5F5F5;
+  font-size: clamp(1.95rem, calc(0.74vw + 1.77rem), 2.37rem);
+  padding-top: 2rem;
+}
+
+/* line 11, ../portfolio/bowling_bar/scss/_section-event.scss */
+.section-event p {
+  padding-top: 2rem;
+  color: #F5F5F5;
+  font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
+}
+
+/* line 18, ../portfolio/bowling_bar/scss/_section-event.scss */
+.article-event {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+}
+
+/* line 24, ../portfolio/bowling_bar/scss/_section-event.scss */
+.event-item {
+  filter: drop-shadow(1px 1px 1px #000000);
+  padding-top: 4rem;
+}
+
+/* line 28, ../portfolio/bowling_bar/scss/_section-event.scss */
+.event-item .icon-wrap {
+  background-color: #F5F5F5;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 1rem 1.8rem;
+  border-top: 6px solid #ED1C24;
+  font-size: clamp(2.44rem, calc(1.27vw + 2.12rem), 3.16rem);
+}
+
+/* line 37, ../portfolio/bowling_bar/scss/_section-event.scss */
+.event-item .event-item-content {
+  background-color: #F5F5F5;
+  margin-top: -3rem;
+  padding: 0 0.5rem;
+  border-radius: 15px;
+  padding-bottom: 2rem;
+}
+
+/* line 44, ../portfolio/bowling_bar/scss/_section-event.scss */
+.event-item .event-item-content h3 {
+  font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
+  padding-top: 6rem;
+}
+
+/* line 49, ../portfolio/bowling_bar/scss/_section-event.scss */
+.event-item .event-item-content p {
+  color: #000000;
+  padding-bottom: 2rem;
+  font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
+}
+
+/* line 55, ../portfolio/bowling_bar/scss/_section-event.scss */
+.event-item .event-item-content a {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: clamp(1rem, calc(0vw + 1rem), 1rem);
+  background-color: #000000;
+  color: #F5F5F5;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+/* line 10, ../portfolio/bowling_bar/scss/main.scss */
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
 }
 
-/* line 15, ../portfolio/bowling_bar/scss/main.scss */
+/* line 16, ../portfolio/bowling_bar/scss/main.scss */
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* line 19, ../portfolio/bowling_bar/scss/main.scss */
+/* line 20, ../portfolio/bowling_bar/scss/main.scss */
 html, body {
   height: 100%;
   padding: 0;
   margin: 0;
 }
 
-/* line 25, ../portfolio/bowling_bar/scss/main.scss */
+/* line 26, ../portfolio/bowling_bar/scss/main.scss */
 img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
 }
 
-/* line 31, ../portfolio/bowling_bar/scss/main.scss */
+/* line 32, ../portfolio/bowling_bar/scss/main.scss */
 ul {
   margin: 0;
   padding-left: 0;
 }
 
-/* line 36, ../portfolio/bowling_bar/scss/main.scss */
+/* line 37, ../portfolio/bowling_bar/scss/main.scss */
 a {
   text-decoration: none;
 }
 
-/* line 40, ../portfolio/bowling_bar/scss/main.scss */
+/* line 41, ../portfolio/bowling_bar/scss/main.scss */
 h1,
 h2,
 h3,
@@ -286,18 +364,18 @@ h6 {
   text-transform: uppercase;
 }
 
-/* line 50, ../portfolio/bowling_bar/scss/main.scss */
+/* line 51, ../portfolio/bowling_bar/scss/main.scss */
 main,
 section {
   max-width: 100%;
 }
 
-/* line 55, ../portfolio/bowling_bar/scss/main.scss */
+/* line 56, ../portfolio/bowling_bar/scss/main.scss */
 section {
   min-height: 100vh;
 }
 
-/* line 59, ../portfolio/bowling_bar/scss/main.scss */
+/* line 60, ../portfolio/bowling_bar/scss/main.scss */
 .content {
   max-width: 1300px;
   margin: 0 auto;
