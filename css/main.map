@@ -5,8 +5,8 @@
 		"../scss/main.scss"
 	],
 	"sourcesContent": [
-		""
+		"/* DOC SETTINGS */\r\n\r\nhtml {\r\n    box-sizing: border-box;\r\n    scroll-behavior: smooth;\r\n    font-family: \"Roboto\", sans-serif;;\r\n}\r\n \r\n*, *:before, *:after {\r\n    box-sizing: inherit;\r\n}\r\n \r\nhtml, body {\r\n    height: 100%;\r\n    padding: 0;\r\n    margin: 0;\r\n}\r\n\r\nimg {\r\n    max-width: 100%;\r\n    height: auto;\r\n    vertical-align: middle;\r\n}\r\n\r\nul {\r\n    margin: 0;\r\n    padding-left: 0;\r\n}\r\n\r\na {\r\n    text-decoration: none;\r\n}\r\n\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\nh6 {\r\n    margin: 0;\r\n    text-transform: uppercase;\r\n}"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": "AAAA,kBAAkB;;AAElB,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,UAAU;EACtB,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,oBAAoB;CACpC;;;AAED,AAAA,CAAC,EAAE,CAAC,AAAA,OAAO,EAAE,CAAC,AAAA,MAAM,CAAC;EACjB,UAAU,EAAE,OAAO;CACtB;;;AAED,AAAA,IAAI,EAAE,IAAI,CAAC;EACP,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;CACZ;;;AAED,AAAA,GAAG,CAAC;EACA,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,IAAI;EACZ,cAAc,EAAE,MAAM;CACzB;;;AAED,AAAA,EAAE,CAAC;EACC,MAAM,EAAE,CAAC;EACT,YAAY,EAAE,CAAC;CAClB;;;AAED,AAAA,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;CACxB;;;AAED,AAAA,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE,CAAC;EACC,MAAM,EAAE,CAAC;EACT,cAAc,EAAE,SAAS;CAC5B"
 }
