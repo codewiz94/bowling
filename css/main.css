@@ -65,6 +65,75 @@ header h2 {
   text-shadow: 4px 3px 3px rgba(0, 0, 0, 0.6);
 }
 
+/* line 1, ../portfolio/bowling_bar/scss/_section-about.scss */
+.section-about {
+  background-color: #F5F5F5;
+}
+
+/* line 5, ../portfolio/bowling_bar/scss/_section-about.scss */
+.about {
+  text-align: center;
+}
+
+/* line 7, ../portfolio/bowling_bar/scss/_section-about.scss */
+.about h2 {
+  padding-top: 2.5rem;
+  font-size: clamp(1.56rem, calc(0.38vw + 1.47rem), 1.78rem);
+}
+
+/* line 11, ../portfolio/bowling_bar/scss/_section-about.scss */
+.about p {
+  font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
+}
+
+/* line 16, ../portfolio/bowling_bar/scss/_section-about.scss */
+.article-about {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+/* line 25, ../portfolio/bowling_bar/scss/_section-about.scss */
+.feature .img-wrap img {
+  border-radius: 50%;
+  border-top: 6px solid #ED1C24;
+}
+
+/* line 30, ../portfolio/bowling_bar/scss/_section-about.scss */
+.feature .icon-wrap {
+  background-color: #F5F5F5;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 1rem 1.6rem;
+  border-top: 6px solid #ED1C24;
+  margin: -3rem;
+  font-size: clamp(1.95rem, calc(0.74vw + 1.77rem), 2.37rem);
+}
+
+/* line 40, ../portfolio/bowling_bar/scss/_section-about.scss */
+.feature h3 {
+  font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
+  line-height: 3;
+}
+
+/* line 45, ../portfolio/bowling_bar/scss/_section-about.scss */
+.feature p {
+  font-size: clamp(1rem, calc(0vw + 1rem), 1rem);
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+
+/* line 51, ../portfolio/bowling_bar/scss/_section-about.scss */
+.feature a {
+  background-color: #000000;
+  color: #F5F5F5;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  font-weight: 700;
+}
+
 /* line 8, ../portfolio/bowling_bar/scss/main.scss */
 html {
   box-sizing: border-box;
@@ -120,9 +189,15 @@ section {
 }
 
 /* line 54, ../portfolio/bowling_bar/scss/main.scss */
+section {
+  min-height: 100vh;
+}
+
+/* line 58, ../portfolio/bowling_bar/scss/main.scss */
 .content {
   max-width: 1300px;
   margin: 0 auto;
+  padding: 0 1.2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
