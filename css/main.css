@@ -434,6 +434,109 @@ header h2 {
   }
 }
 
+/* line 1, ../portfolio/bowling_bar/scss/_footer.scss */
+footer {
+  background: url(../img/bg/footer-bg.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #F5F5F5;
+}
+
+/* line 8, ../portfolio/bowling_bar/scss/_footer.scss */
+.section-footer {
+  min-height: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-bottom: 3rem;
+}
+
+/* line 14, ../portfolio/bowling_bar/scss/_footer.scss */
+.footer-nav-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2rem 0;
+}
+
+/* line 19, ../portfolio/bowling_bar/scss/_footer.scss */
+.footer-nav-1 ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+  font-size: clamp(1rem, calc(0vw + 1rem), 1rem);
+  font-weight: 700;
+}
+
+/* line 28, ../portfolio/bowling_bar/scss/_footer.scss */
+.footer-nav-1 ul li a {
+  color: #F5F5F5;
+  white-space: nowrap;
+}
+
+/* line 34, ../portfolio/bowling_bar/scss/_footer.scss */
+.footer-nav-1 .logo img {
+  max-width: 40%;
+  filter: drop-shadow(5px 5px 4px #000000);
+}
+
+/* line 39, ../portfolio/bowling_bar/scss/_footer.scss */
+.footer-nav-1 .social {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: clamp(1.95rem, calc(0.74vw + 1.77rem), 2.37rem);
+}
+
+/* line 45, ../portfolio/bowling_bar/scss/_footer.scss */
+.footer-nav-1 .social .icon {
+  border: 1px solid #F5F5F5;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+/* line 52, ../portfolio/bowling_bar/scss/_footer.scss */
+.footer-nav-1 .social .icon a {
+  color: #F5F5F5;
+}
+
+/* line 61, ../portfolio/bowling_bar/scss/_footer.scss */
+.footer-nav-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1.5rem;
+  text-align: center;
+}
+
+/* line 67, ../portfolio/bowling_bar/scss/_footer.scss */
+.footer-nav-2 ul {
+  list-style: none;
+  border: 1px solid #F5F5F5;
+  padding: 1rem 0;
+  border-radius: 10px;
+}
+
+/* line 73, ../portfolio/bowling_bar/scss/_footer.scss */
+.footer-nav-2 ul li {
+  line-height: 1.5;
+}
+
+/* line 76, ../portfolio/bowling_bar/scss/_footer.scss */
+.footer-nav-2 ul li a {
+  color: #F5F5F5;
+}
+
+/* line 81, ../portfolio/bowling_bar/scss/_footer.scss */
+.footer-nav-2 ul li:nth-child(1) {
+  font-size: clamp(1.95rem, calc(0.74vw + 1.77rem), 2.37rem);
+}
+
+/* line 85, ../portfolio/bowling_bar/scss/_footer.scss */
+.footer-nav-2 ul li:nth-child(2) {
+  font-weight: 700;
+}
+
 /* line 11, ../portfolio/bowling_bar/scss/main.scss */
 html {
   box-sizing: border-box;
