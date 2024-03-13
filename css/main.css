@@ -537,6 +537,83 @@ footer {
   font-weight: 700;
 }
 
+@media (max-width: 1150px) {
+  /* line 96, ../portfolio/bowling_bar/scss/_footer.scss */
+  .social {
+    padding-left: 1rem;
+  }
+  /* line 100, ../portfolio/bowling_bar/scss/_footer.scss */
+  .footer-nav-1 .logo img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* line 106, ../portfolio/bowling_bar/scss/_footer.scss */
+  .footer-nav-1 {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+  /* line 111, ../portfolio/bowling_bar/scss/_footer.scss */
+  .footer-nav-1 .logo {
+    text-align: center;
+  }
+  /* line 115, ../portfolio/bowling_bar/scss/_footer.scss */
+  .footer-nav-1 .logo img {
+    max-width: 30%;
+  }
+  /* line 119, ../portfolio/bowling_bar/scss/_footer.scss */
+  .social {
+    padding-left: 0rem;
+  }
+}
+
+@media (max-width: 750px) {
+  /* line 125, ../portfolio/bowling_bar/scss/_footer.scss */
+  .dot {
+    display: none;
+  }
+  /* line 129, ../portfolio/bowling_bar/scss/_footer.scss */
+  .footer-nav-2 {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1.5rem;
+  }
+}
+
+@media (max-width: 550px) {
+  /* line 136, ../portfolio/bowling_bar/scss/_footer.scss */
+  .footer-nav-1 ul {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  /* line 142, ../portfolio/bowling_bar/scss/_footer.scss */
+  .footer-nav-1 .logo img {
+    max-width: 50%;
+  }
+  /* line 146, ../portfolio/bowling_bar/scss/_footer.scss */
+  .footer-nav-2 {
+    grid-template-columns: 1fr;
+    row-gap: 1.5rem;
+  }
+}
+
+/* line 154, ../portfolio/bowling_bar/scss/_footer.scss */
+.credits {
+  background-color: #000000;
+  color: #F5F5F5;
+  text-align: center;
+  font-size: clamp(0.8rem, calc(-0.09vw + 0.82rem), 0.75rem);
+  padding: 0.5rem 0;
+}
+
+/* line 161, ../portfolio/bowling_bar/scss/_footer.scss */
+.credits a {
+  color: #F5F5F5;
+  padding-left: 0.25rem;
+}
+
 /* line 11, ../portfolio/bowling_bar/scss/main.scss */
 html {
   box-sizing: border-box;
