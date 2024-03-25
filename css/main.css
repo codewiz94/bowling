@@ -335,9 +335,16 @@ header h2 {
   }
 }
 
+/* line 1, ../portfolio/bowling_bar/scss/_section-gallery.scss */
+.section-gallery {
+  background: url(../img/bg/wood-bg-pc-grad3.webp) center no-repeat;
+  background-size: cover;
+  color: #F5F5F5;
+}
+
 /* line 1, ../portfolio/bowling_bar/scss/_section-contact.scss */
 .section-contact {
-  background-color: #000000;
+  background-color: #1B1C1E;
   color: #F5F5F5;
   text-align: center;
   padding: 2rem 0;
@@ -614,44 +621,44 @@ footer {
   padding-left: 0.25rem;
 }
 
-/* line 11, ../portfolio/bowling_bar/scss/main.scss */
+/* line 12, ../portfolio/bowling_bar/scss/main.scss */
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
 }
 
-/* line 17, ../portfolio/bowling_bar/scss/main.scss */
+/* line 18, ../portfolio/bowling_bar/scss/main.scss */
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* line 21, ../portfolio/bowling_bar/scss/main.scss */
+/* line 22, ../portfolio/bowling_bar/scss/main.scss */
 html, body {
   height: 100%;
   padding: 0;
   margin: 0;
 }
 
-/* line 27, ../portfolio/bowling_bar/scss/main.scss */
+/* line 28, ../portfolio/bowling_bar/scss/main.scss */
 img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
 }
 
-/* line 33, ../portfolio/bowling_bar/scss/main.scss */
+/* line 34, ../portfolio/bowling_bar/scss/main.scss */
 ul {
   margin: 0;
   padding-left: 0;
 }
 
-/* line 38, ../portfolio/bowling_bar/scss/main.scss */
+/* line 39, ../portfolio/bowling_bar/scss/main.scss */
 a {
   text-decoration: none;
 }
 
-/* line 42, ../portfolio/bowling_bar/scss/main.scss */
+/* line 43, ../portfolio/bowling_bar/scss/main.scss */
 h1,
 h2,
 h3,
@@ -662,18 +669,18 @@ h6 {
   text-transform: uppercase;
 }
 
-/* line 52, ../portfolio/bowling_bar/scss/main.scss */
+/* line 53, ../portfolio/bowling_bar/scss/main.scss */
 main,
 section {
   max-width: 100%;
 }
 
-/* line 57, ../portfolio/bowling_bar/scss/main.scss */
+/* line 58, ../portfolio/bowling_bar/scss/main.scss */
 section {
   min-height: 100vh;
 }
 
-/* line 61, ../portfolio/bowling_bar/scss/main.scss */
+/* line 62, ../portfolio/bowling_bar/scss/main.scss */
 .content {
   max-width: 1300px;
   margin: 0 auto;
