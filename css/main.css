@@ -337,9 +337,35 @@ header h2 {
 
 /* line 1, ../portfolio/bowling_bar/scss/_section-gallery.scss */
 .section-gallery {
-  background: url(../img/bg/wood-bg-pc-grad3.webp) center no-repeat;
+  background: url(../img/bg/wood-bg-pc-grad2.webp) center no-repeat;
   background-size: cover;
   color: #F5F5F5;
+}
+
+/* line 8, ../portfolio/bowling_bar/scss/_section-gallery.scss */
+.gallery-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  font-size: 25rem;
+  padding: 3rem 0;
+}
+
+/* line 17, ../portfolio/bowling_bar/scss/_section-gallery.scss */
+.gallery-wrap i {
+  background-image: url(../img/other/default-square.png);
+  background-size: contain;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(2px 2px 2px #F5F5F5);
+}
+
+/* line 24, ../portfolio/bowling_bar/scss/_section-gallery.scss */
+.gallery-wrap i:hover, .gallery-wrap i:active {
+  transform: scale(1.05);
+  transition-duration: 300ms;
 }
 
 /* line 1, ../portfolio/bowling_bar/scss/_section-contact.scss */

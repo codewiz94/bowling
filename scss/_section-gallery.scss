@@ -1,6 +1,30 @@
 .section-gallery {
-    background: url(../img/bg/wood-bg-pc-grad3.webp) center no-repeat;
+    background: url(../img/bg/wood-bg-pc-grad2.webp) center no-repeat;
     background-size: cover;
     color: $color-font-lt;
 
+}
+
+.gallery-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    font-size: 25rem;
+    padding: 3rem 0;
+
+    i {
+        background-image: url(../img/other/default-square.png);
+        background-size: contain;
+        background-clip: text;
+        color: transparent;
+        filter: drop-shadow(2px 2px 2px $color-font-lt);
+
+        &:hover,
+        &:active {
+            transform: scale(1.05);
+            transition-duration: 300ms;
+        }
+    }
 }
