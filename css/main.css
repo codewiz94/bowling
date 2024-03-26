@@ -360,6 +360,8 @@ header .title-wrap h2 span {
 
 /* line 37, ../portfolio/bowling_bar/scss/_section-event.scss */
 .event-item .event-item-content {
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
   background-color: #F5F5F5;
   margin-top: -3rem;
   padding: 0 0.5rem;
@@ -367,20 +369,21 @@ header .title-wrap h2 span {
   padding-bottom: 2rem;
 }
 
-/* line 44, ../portfolio/bowling_bar/scss/_section-event.scss */
+/* line 47, ../portfolio/bowling_bar/scss/_section-event.scss */
 .event-item .event-item-content h3 {
   font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
-  padding-top: 6rem;
+  padding-top: 3rem;
 }
 
-/* line 49, ../portfolio/bowling_bar/scss/_section-event.scss */
+/* line 52, ../portfolio/bowling_bar/scss/_section-event.scss */
 .event-item .event-item-content p {
   color: #000000;
-  padding-bottom: 2rem;
   font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
+  padding-top: 0;
+  place-self: center;
 }
 
-/* line 55, ../portfolio/bowling_bar/scss/_section-event.scss */
+/* line 59, ../portfolio/bowling_bar/scss/_section-event.scss */
 .event-item .event-item-content a {
   text-transform: uppercase;
   font-weight: 700;
@@ -389,14 +392,16 @@ header .title-wrap h2 span {
   color: #F5F5F5;
   padding: 1rem;
   border-radius: 5px;
+  width: 75%;
+  place-self: center;
 }
 
 @media (max-width: 1000px) {
-  /* line 69, ../portfolio/bowling_bar/scss/_section-event.scss */
+  /* line 75, ../portfolio/bowling_bar/scss/_section-event.scss */
   .section-event {
     padding-bottom: 4rem;
   }
-  /* line 73, ../portfolio/bowling_bar/scss/_section-event.scss */
+  /* line 79, ../portfolio/bowling_bar/scss/_section-event.scss */
   .article-event {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
@@ -404,7 +409,7 @@ header .title-wrap h2 span {
 }
 
 @media (max-width: 550px) {
-  /* line 80, ../portfolio/bowling_bar/scss/_section-event.scss */
+  /* line 86, ../portfolio/bowling_bar/scss/_section-event.scss */
   .article-event {
     grid-template-columns: 1fr;
   }

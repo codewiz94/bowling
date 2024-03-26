@@ -35,6 +35,9 @@
     }
 
     .event-item-content {
+
+        display: grid;
+        grid-template-rows: 1fr 2fr 1fr;
         background-color: $color-bg-lt;
         margin-top: -3rem;
         padding: 0 0.5rem;
@@ -43,13 +46,14 @@
 
         h3 {
             font-size: $fs-md;
-            padding-top: 6rem;
+            padding-top: 3rem;
         }
 
         p {
             color: $color-font-dk;
-            padding-bottom: 2rem;
             font-size: $fs-md;
+            padding-top: 0;
+            place-self: center;
         }
 
         a {
@@ -60,6 +64,8 @@
             color: $color-font-lt;
             padding: 1rem;
             border-radius: 5px;
+            width: 75%;
+            place-self: center;
         }
     }
 }
