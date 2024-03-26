@@ -8,10 +8,11 @@
         font-size: $fs-xl;
         padding-top: 2rem;
     }
-    p {
+    .event-title {
         padding-top: 2rem;
         color: $color-font-lt;
         font-size: $fs-md;
+        line-height: 1.5;
     }
 }
 
@@ -54,6 +55,7 @@
             font-size: $fs-md;
             padding-top: 0;
             place-self: center;
+            
         }
 
         a {

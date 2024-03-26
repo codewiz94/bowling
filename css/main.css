@@ -329,26 +329,27 @@ header .title-wrap h2 span {
 }
 
 /* line 11, ../portfolio/bowling_bar/scss/_section-event.scss */
-.section-event p {
+.section-event .event-title {
   padding-top: 2rem;
   color: #F5F5F5;
   font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
+  line-height: 1.5;
 }
 
-/* line 18, ../portfolio/bowling_bar/scss/_section-event.scss */
+/* line 19, ../portfolio/bowling_bar/scss/_section-event.scss */
 .article-event {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 2rem;
 }
 
-/* line 24, ../portfolio/bowling_bar/scss/_section-event.scss */
+/* line 25, ../portfolio/bowling_bar/scss/_section-event.scss */
 .event-item {
   filter: drop-shadow(1px 1px 1px #000000);
   padding-top: 4rem;
 }
 
-/* line 28, ../portfolio/bowling_bar/scss/_section-event.scss */
+/* line 29, ../portfolio/bowling_bar/scss/_section-event.scss */
 .event-item .icon-wrap {
   background-color: #F5F5F5;
   display: inline-block;
@@ -358,7 +359,7 @@ header .title-wrap h2 span {
   font-size: clamp(2.44rem, calc(1.27vw + 2.12rem), 3.16rem);
 }
 
-/* line 37, ../portfolio/bowling_bar/scss/_section-event.scss */
+/* line 38, ../portfolio/bowling_bar/scss/_section-event.scss */
 .event-item .event-item-content {
   display: grid;
   grid-template-rows: 1fr 2fr 1fr;
@@ -369,13 +370,13 @@ header .title-wrap h2 span {
   padding-bottom: 2rem;
 }
 
-/* line 47, ../portfolio/bowling_bar/scss/_section-event.scss */
+/* line 48, ../portfolio/bowling_bar/scss/_section-event.scss */
 .event-item .event-item-content h3 {
   font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
   padding-top: 3rem;
 }
 
-/* line 52, ../portfolio/bowling_bar/scss/_section-event.scss */
+/* line 53, ../portfolio/bowling_bar/scss/_section-event.scss */
 .event-item .event-item-content p {
   color: #000000;
   font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
@@ -383,7 +384,7 @@ header .title-wrap h2 span {
   place-self: center;
 }
 
-/* line 59, ../portfolio/bowling_bar/scss/_section-event.scss */
+/* line 61, ../portfolio/bowling_bar/scss/_section-event.scss */
 .event-item .event-item-content a {
   text-transform: uppercase;
   font-weight: 700;
@@ -397,11 +398,11 @@ header .title-wrap h2 span {
 }
 
 @media (max-width: 1000px) {
-  /* line 75, ../portfolio/bowling_bar/scss/_section-event.scss */
+  /* line 77, ../portfolio/bowling_bar/scss/_section-event.scss */
   .section-event {
     padding-bottom: 4rem;
   }
-  /* line 79, ../portfolio/bowling_bar/scss/_section-event.scss */
+  /* line 81, ../portfolio/bowling_bar/scss/_section-event.scss */
   .article-event {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
@@ -409,7 +410,7 @@ header .title-wrap h2 span {
 }
 
 @media (max-width: 550px) {
-  /* line 86, ../portfolio/bowling_bar/scss/_section-event.scss */
+  /* line 88, ../portfolio/bowling_bar/scss/_section-event.scss */
   .article-event {
     grid-template-columns: 1fr;
   }
@@ -423,6 +424,27 @@ header .title-wrap h2 span {
 }
 
 /* line 8, ../portfolio/bowling_bar/scss/_section-gallery.scss */
+.gallery h2,
+.gallery p {
+  text-align: center;
+  font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
+  line-height: 1.5;
+}
+
+/* line 15, ../portfolio/bowling_bar/scss/_section-gallery.scss */
+.gallery h2 {
+  padding: 3rem 0;
+  font-size: clamp(1.56rem, calc(0.38vw + 1.47rem), 1.78rem);
+}
+
+/* line 18, ../portfolio/bowling_bar/scss/_section-gallery.scss */
+.gallery h2 span {
+  background-color: #000000;
+  border: 5px solid #F5F5F5;
+  padding: 0.75rem 1rem;
+}
+
+/* line 26, ../portfolio/bowling_bar/scss/_section-gallery.scss */
 .gallery-wrap {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -433,7 +455,7 @@ header .title-wrap h2 span {
   padding: 3rem 0;
 }
 
-/* line 17, ../portfolio/bowling_bar/scss/_section-gallery.scss */
+/* line 36, ../portfolio/bowling_bar/scss/_section-gallery.scss */
 .gallery-wrap i {
   background-image: url(../img/other/default-square.png);
   background-size: contain;
@@ -442,7 +464,7 @@ header .title-wrap h2 span {
   filter: drop-shadow(2px 2px 2px #F5F5F5);
 }
 
-/* line 24, ../portfolio/bowling_bar/scss/_section-gallery.scss */
+/* line 43, ../portfolio/bowling_bar/scss/_section-gallery.scss */
 .gallery-wrap i:hover, .gallery-wrap i:active {
   transform: scale(1.05);
   transition-duration: 300ms;

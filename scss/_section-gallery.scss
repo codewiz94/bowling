@@ -2,8 +2,26 @@
     background: url(../img/bg/wood-bg-pc-grad2.webp) center no-repeat;
     background-size: cover;
     color: $color-font-lt;
-
 }
+
+ .gallery {
+    h2,
+    p {
+        text-align: center;
+        font-size: $fs-md;
+        line-height: 1.5;
+    }
+
+    h2 {
+        padding: 3rem 0;
+        font-size: $fs-lg;
+        span {
+            background-color: $color-font-dk;
+            border: 5px solid $color-font-lt;
+            padding: 0.75rem 1rem;
+        }
+    }
+ }
 
 .gallery-wrap {
     display: grid;
@@ -13,6 +31,7 @@
     row-gap: 2rem;
     font-size: 25rem;
     padding: 3rem 0;
+    
 
     i {
         background-image: url(../img/other/default-square.png);
@@ -29,6 +48,3 @@
     }
 }
 
-@media (max-width: 1300px) {
-    
-}
