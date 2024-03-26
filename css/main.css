@@ -137,13 +137,24 @@ header .title-wrap h2 span {
   padding: 5rem 0;
 }
 
-/* line 26, ../portfolio/bowling_bar/scss/_section-about.scss */
+/* line 25, ../portfolio/bowling_bar/scss/_section-about.scss */
+.feature {
+  display: grid;
+  grid-template-rows: 2fr 0.5fr 1.5fr 0.2fr;
+}
+
+/* line 30, ../portfolio/bowling_bar/scss/_section-about.scss */
+.feature .img-container {
+  place-self: center;
+}
+
+/* line 34, ../portfolio/bowling_bar/scss/_section-about.scss */
 .feature .img-wrap img {
   border-radius: 50%;
   border-top: 6px solid #ED1C24;
 }
 
-/* line 31, ../portfolio/bowling_bar/scss/_section-about.scss */
+/* line 39, ../portfolio/bowling_bar/scss/_section-about.scss */
 .feature .icon-wrap {
   background-color: #F5F5F5;
   display: inline-block;
@@ -154,41 +165,65 @@ header .title-wrap h2 span {
   font-size: clamp(1.95rem, calc(0.74vw + 1.77rem), 2.37rem);
 }
 
-/* line 41, ../portfolio/bowling_bar/scss/_section-about.scss */
+/* line 49, ../portfolio/bowling_bar/scss/_section-about.scss */
 .feature h3 {
+  place-self: center;
   font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
   line-height: 3;
 }
 
-/* line 46, ../portfolio/bowling_bar/scss/_section-about.scss */
+/* line 55, ../portfolio/bowling_bar/scss/_section-about.scss */
 .feature p {
+  place-self: center;
+  align-self: start;
   font-size: clamp(1rem, calc(0vw + 1rem), 1rem);
   line-height: 1.5;
   padding-bottom: 2rem;
+  margin: 0;
 }
 
-/* line 52, ../portfolio/bowling_bar/scss/_section-about.scss */
+/* line 64, ../portfolio/bowling_bar/scss/_section-about.scss */
 .feature a {
+  place-self: center;
+  align-content: start;
   background-color: #000000;
   color: #F5F5F5;
   text-transform: uppercase;
   padding: 1rem 2rem;
   font-weight: 700;
   border-radius: 5px;
+  max-width: 80%;
+  text-align: center;
 }
 
 @media (max-width: 900px) {
-  /* line 65, ../portfolio/bowling_bar/scss/_section-about.scss */
+  /* line 81, ../portfolio/bowling_bar/scss/_section-about.scss */
   .article-about {
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 3rem;
+    row-gap: 2rem;
+  }
+  /* line 84, ../portfolio/bowling_bar/scss/_section-about.scss */
+  .article-about .feature {
+    grid-template-rows: 3fr 0.5fr 1.5fr 0.2fr;
   }
 }
 
-@media (max-width: 450px) {
-  /* line 72, ../portfolio/bowling_bar/scss/_section-about.scss */
+@media (max-width: 600px) {
+  /* line 91, ../portfolio/bowling_bar/scss/_section-about.scss */
+  .article-about .feature {
+    grid-template-rows: 2fr 0.5fr 1.5fr 0.2fr;
+  }
+}
+
+@media (max-width: 500px) {
+  /* line 97, ../portfolio/bowling_bar/scss/_section-about.scss */
   .article-about {
     grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+  /* line 102, ../portfolio/bowling_bar/scss/_section-about.scss */
+  .article-about .feature {
+    display: block;
   }
 }
 
