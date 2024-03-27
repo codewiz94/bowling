@@ -32,18 +32,17 @@
 
 // SECTION MENU DRINKS
 
-//HERBAL
 
 .drink-wrap {
     display: grid;
     grid-template-columns: 2fr 0.5fr 1fr;
-    line-height: 1.5;
+    line-height: 2;
     font-size: $fs-md;
 }
 
 .drink-name {
     text-align: left;
-    padding-left: 50%;
+    padding-left: 35%;
 }
 
 .drink-liters {
@@ -62,3 +61,14 @@
     color: $color-font-lt;
 }
 
+
+// MIXED DRINKS
+
+.mixed-drinks-wrap {
+    .drink-name {
+        small {
+            font-size: $fs-base;
+            
+        }
+    }
+}
