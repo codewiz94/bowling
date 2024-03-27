@@ -34,7 +34,7 @@
 
 //HERBAL
 
-.herbal-wrap {
+.drink-wrap {
     display: grid;
     grid-template-columns: 2fr 0.5fr 1fr;
     line-height: 1.5;
@@ -56,7 +56,7 @@
 }
 
 
-.herbal h3 {
+.drink-heading {
     text-align: center;
     font-size: $fs-lg;
     color: $color-font-lt;
