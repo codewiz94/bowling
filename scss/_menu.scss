@@ -30,6 +30,27 @@
     }
 }
 
+.food-heading {
+    text-align: center;
+    font-size: $fs-lg;
+
+    small {
+        font-size: $fs-base;
+    }
+}
+
+.food-wrap {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 20%;
+    line-height: 2;
+    font-size: $fs-md;
+}
+
+.food-price {
+    font-size: $fs-lg;
+}
+
 // SECTION MENU DRINKS
 
 
