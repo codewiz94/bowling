@@ -51,6 +51,31 @@
     font-size: $fs-lg;
 }
 
+// PIZZA
+.pizza-wrap {
+    .food-name {
+        font-size: $fs-lg;
+        small {
+            font-size: $fs-md;
+        }
+    }
+}
+
+// DIPS
+
+.dips-wrap,
+.side-dish-wrap {
+
+    .food-name {
+        padding-left: 35%;
+    }
+
+    .food-price {
+        font-size: $fs-md;
+    }
+}
+
+
 // SECTION MENU DRINKS
 
 
