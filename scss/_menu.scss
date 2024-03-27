@@ -4,10 +4,61 @@
     background-size: cover;
 }
 
-
-// SECTION MENU FOOD
-
 .section-menu-food,
 .section-menu-drinks {
     background-color: #303030;
+    color: $color-font-lt;
 }
+
+// SECTION MENU FOOD
+
+.menu-food,
+.menu-drinks {
+    h2 {
+        color: $color-font-lt;
+        text-align: center;
+        line-height: 2;
+        font-size: $fs-xl;
+        padding-top: 2rem;
+    }
+
+    p {
+        color: $color-font-lt;
+        text-align: center;
+        line-height: 1.5;
+        font-size: $fs-md;
+    }
+}
+
+// SECTION MENU DRINKS
+
+//HERBAL
+
+.herbal-wrap {
+    display: grid;
+    grid-template-columns: 2fr 0.5fr 1fr;
+    line-height: 1.5;
+    font-size: $fs-md;
+}
+
+.drink-name {
+    text-align: left;
+    padding-left: 50%;
+}
+
+.drink-liters {
+    text-align: right;
+}
+
+.drink-price {
+    text-align: left;
+    padding-left: 5%;
+}
+
+
+.herbal h3 {
+    text-align: center;
+    font-size: $fs-lg;
+    color: $color-font-lt;
+}
+

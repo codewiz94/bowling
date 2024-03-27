@@ -575,10 +575,62 @@ header .title-wrap h2 span {
   background-size: cover;
 }
 
-/* line 10, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 7, ../portfolio/bowling_bar/scss/_menu.scss */
 .section-menu-food,
 .section-menu-drinks {
   background-color: #303030;
+  color: #F5F5F5;
+}
+
+/* line 17, ../portfolio/bowling_bar/scss/_menu.scss */
+.menu-food h2,
+.menu-drinks h2 {
+  color: #F5F5F5;
+  text-align: center;
+  line-height: 2;
+  font-size: clamp(1.95rem, calc(0.74vw + 1.77rem), 2.37rem);
+  padding-top: 2rem;
+}
+
+/* line 25, ../portfolio/bowling_bar/scss/_menu.scss */
+.menu-food p,
+.menu-drinks p {
+  color: #F5F5F5;
+  text-align: center;
+  line-height: 1.5;
+  font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
+}
+
+/* line 37, ../portfolio/bowling_bar/scss/_menu.scss */
+.herbal-wrap {
+  display: grid;
+  grid-template-columns: 2fr 0.5fr 1fr;
+  line-height: 1.5;
+  font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
+}
+
+/* line 44, ../portfolio/bowling_bar/scss/_menu.scss */
+.drink-name {
+  text-align: left;
+  padding-left: 50%;
+}
+
+/* line 49, ../portfolio/bowling_bar/scss/_menu.scss */
+.drink-liters {
+  text-align: right;
+}
+
+/* line 53, ../portfolio/bowling_bar/scss/_menu.scss */
+.drink-price {
+  text-align: left;
+  padding-left: 5%;
+}
+
+/* line 59, ../portfolio/bowling_bar/scss/_menu.scss */
+.herbal h3 {
+  text-align: center;
+  font-size: clamp(1.56rem, calc(0.38vw + 1.47rem), 1.78rem);
+  color: #F5F5F5;
 }
 
 /* line 1, ../portfolio/bowling_bar/scss/_footer.scss */
