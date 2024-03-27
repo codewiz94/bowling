@@ -633,8 +633,10 @@ header .title-wrap h2 span {
   color: #F5F5F5;
 }
 
-/* line 69, ../portfolio/bowling_bar/scss/_menu.scss */
-.mixed-drinks-wrap .drink-name small {
+/* line 71, ../portfolio/bowling_bar/scss/_menu.scss */
+.mixed-drinks-wrap .drink-name small,
+.bucket-4-wrap .drink-name small,
+.bucket-8-wrap .drink-name small {
   font-size: clamp(1rem, calc(0vw + 1rem), 1rem);
 }
 

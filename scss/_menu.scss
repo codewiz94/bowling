@@ -62,13 +62,14 @@
 }
 
 
-// MIXED DRINKS
+// MIXED DRINKS & BUCKETS
 
-.mixed-drinks-wrap {
+.mixed-drinks-wrap,
+.bucket-4-wrap,
+.bucket-8-wrap {
     .drink-name {
         small {
             font-size: $fs-base;
-            
         }
     }
 }
