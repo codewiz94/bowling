@@ -694,6 +694,15 @@ header .title-wrap h2 span {
 }
 
 /* line 10, ../portfolio/bowling_bar/scss/_games.scss */
+.welcome-text {
+  font-size: clamp(1.56rem, calc(0.38vw + 1.47rem), 1.78rem);
+  margin: 0 auto;
+  padding: 2rem 0;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* line 18, ../portfolio/bowling_bar/scss/_games.scss */
 .games-item {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -701,43 +710,46 @@ header .title-wrap h2 span {
   text-align: center;
 }
 
-/* line 16, ../portfolio/bowling_bar/scss/_games.scss */
+/* line 24, ../portfolio/bowling_bar/scss/_games.scss */
 .games-item img {
   place-self: center;
+  padding-top: 4rem;
 }
 
-/* line 20, ../portfolio/bowling_bar/scss/_games.scss */
+/* line 29, ../portfolio/bowling_bar/scss/_games.scss */
 .games-item h3 {
   text-align: center;
   font-size: clamp(1.56rem, calc(0.38vw + 1.47rem), 1.78rem);
   padding: 2rem 0;
 }
 
-/* line 25, ../portfolio/bowling_bar/scss/_games.scss */
+/* line 34, ../portfolio/bowling_bar/scss/_games.scss */
 .games-item h3 span {
   padding: 1rem;
   border: 2px solid;
   border-radius: 5px;
 }
 
-/* line 32, ../portfolio/bowling_bar/scss/_games.scss */
+/* line 41, ../portfolio/bowling_bar/scss/_games.scss */
 .games-item p {
   font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
   line-height: 1.5;
 }
 
-/* line 37, ../portfolio/bowling_bar/scss/_games.scss */
+/* line 46, ../portfolio/bowling_bar/scss/_games.scss */
 .games-item h4 {
   font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
-/* line 44, ../portfolio/bowling_bar/scss/_games.scss */
+/* line 55, ../portfolio/bowling_bar/scss/_games.scss */
 .section-games-1 {
   background-color: #1F1F1F;
   color: #F5F5F5;
 }
 
-/* line 49, ../portfolio/bowling_bar/scss/_games.scss */
+/* line 60, ../portfolio/bowling_bar/scss/_games.scss */
 .section-games-2 {
   background-color: #F5F5F5;
   color: #000000;

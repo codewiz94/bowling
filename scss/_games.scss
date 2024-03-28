@@ -7,6 +7,14 @@
 
 // GAMES
 
+.welcome-text {
+    font-size: $fs-lg;
+    margin: 0 auto;
+    padding: 2rem 0;
+    line-height: 1.5;
+    text-align: center;
+}
+
 .games-item {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -15,6 +23,7 @@
 
     img {
         place-self: center;
+        padding-top: 4rem;
     }
 
     h3 {
@@ -36,6 +45,8 @@
 
     h4 {
         font-size: $fs-md;
+        text-decoration: underline;
+        text-underline-offset: 4px;
     }
 }
 
