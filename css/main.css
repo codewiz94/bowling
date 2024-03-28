@@ -687,6 +687,18 @@ header .title-wrap h2 span {
   font-size: clamp(1rem, calc(0vw + 1rem), 1rem);
 }
 
+/* line 2, ../portfolio/bowling_bar/scss/_games.scss */
+.games-header {
+  background: url(../img/games/games_bg_pc.jpg) center no-repeat;
+  background-size: cover;
+}
+
+/* line 10, ../portfolio/bowling_bar/scss/_games.scss */
+.games-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 /* line 1, ../portfolio/bowling_bar/scss/_footer.scss */
 footer {
   background: url(../img/bg/footer-bg.webp) no-repeat;
@@ -867,44 +879,44 @@ footer {
   padding-left: 0.25rem;
 }
 
-/* line 13, ../portfolio/bowling_bar/scss/main.scss */
+/* line 14, ../portfolio/bowling_bar/scss/main.scss */
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
 }
 
-/* line 19, ../portfolio/bowling_bar/scss/main.scss */
+/* line 20, ../portfolio/bowling_bar/scss/main.scss */
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* line 23, ../portfolio/bowling_bar/scss/main.scss */
+/* line 24, ../portfolio/bowling_bar/scss/main.scss */
 html, body {
   height: 100%;
   padding: 0;
   margin: 0;
 }
 
-/* line 29, ../portfolio/bowling_bar/scss/main.scss */
+/* line 30, ../portfolio/bowling_bar/scss/main.scss */
 img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
 }
 
-/* line 35, ../portfolio/bowling_bar/scss/main.scss */
+/* line 36, ../portfolio/bowling_bar/scss/main.scss */
 ul {
   margin: 0;
   padding-left: 0;
 }
 
-/* line 40, ../portfolio/bowling_bar/scss/main.scss */
+/* line 41, ../portfolio/bowling_bar/scss/main.scss */
 a {
   text-decoration: none;
 }
 
-/* line 44, ../portfolio/bowling_bar/scss/main.scss */
+/* line 45, ../portfolio/bowling_bar/scss/main.scss */
 h1,
 h2,
 h3,
@@ -915,18 +927,18 @@ h6 {
   text-transform: uppercase;
 }
 
-/* line 54, ../portfolio/bowling_bar/scss/main.scss */
+/* line 55, ../portfolio/bowling_bar/scss/main.scss */
 main,
 section {
   max-width: 100%;
 }
 
-/* line 59, ../portfolio/bowling_bar/scss/main.scss */
+/* line 60, ../portfolio/bowling_bar/scss/main.scss */
 section {
   min-height: 100vh;
 }
 
-/* line 63, ../portfolio/bowling_bar/scss/main.scss */
+/* line 64, ../portfolio/bowling_bar/scss/main.scss */
 .content {
   max-width: 1300px;
   margin: 0 auto;

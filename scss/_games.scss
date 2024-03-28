@@ -1,0 +1,13 @@
+// HEADER
+.games-header {
+    background: url(../img/games/games_bg_pc.jpg) center no-repeat;
+    background-size: cover;
+}
+
+
+// GAMES
+
+.games-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
