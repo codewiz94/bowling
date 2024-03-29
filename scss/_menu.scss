@@ -53,6 +53,9 @@
 
 // PIZZA
 .pizza-wrap {
+
+    padding: 1rem 0;
+
     .food-name {
         font-size: $fs-lg;
         small {
@@ -75,6 +78,10 @@
 
 // DIPS
 
+.dips-wrap {
+    row-gap: 1rem;
+}
+
 .dips-wrap,
 .side-dish-wrap {
 
@@ -84,6 +91,7 @@
 
     .food-price {
         font-size: $fs-md;
+        text-align: center;
     }
 }
 
@@ -99,7 +107,7 @@
 }
 
 .drink-container {
-    padding: 1rem 0;
+    padding: 3rem 0;
     margin: 2rem 0;
     border: 1px solid;
     border-radius: 15px;
@@ -151,4 +159,42 @@
 
 .nealko {
     margin-top: 0;
+}
+
+
+
+// MEDIA QUERIES
+
+@media (max-width: 900px) {
+    .pizza-wrap {
+        .food-name {
+            font-size: $fs-md;
+            small {
+                font-size: $fs-base;
+            }
+        }
+
+        .food-price {
+            font-size: $fs-md;
+            text-align: center;
+        }
+    }
+
+    .dips-wrap,
+    .side-dish-wrap {
+
+    .food-name {
+        padding-left: 10%;
+    }
+    }
+
+    .drink-name {
+        padding-left: 5%;
+    }
+
+    .drink-price {
+        text-align: center;
+    }
+
+
 }

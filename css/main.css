@@ -626,39 +626,50 @@ header .title-wrap h2 span {
   font-size: clamp(1.56rem, calc(0.38vw + 1.47rem), 1.78rem);
 }
 
-/* line 56, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 55, ../portfolio/bowling_bar/scss/_menu.scss */
+.pizza-wrap {
+  padding: 1rem 0;
+}
+
+/* line 59, ../portfolio/bowling_bar/scss/_menu.scss */
 .pizza-wrap .food-name {
   font-size: clamp(1.56rem, calc(0.38vw + 1.47rem), 1.78rem);
 }
 
-/* line 58, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 61, ../portfolio/bowling_bar/scss/_menu.scss */
 .pizza-wrap .food-name small {
   font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
 }
 
-/* line 65, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 68, ../portfolio/bowling_bar/scss/_menu.scss */
 .food-container h3 {
   padding: 2rem 0;
 }
 
-/* line 70, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 73, ../portfolio/bowling_bar/scss/_menu.scss */
 .food-price {
   font-weight: 700;
 }
 
 /* line 81, ../portfolio/bowling_bar/scss/_menu.scss */
+.dips-wrap {
+  row-gap: 1rem;
+}
+
+/* line 88, ../portfolio/bowling_bar/scss/_menu.scss */
 .dips-wrap .food-name,
 .side-dish-wrap .food-name {
   padding-left: 35%;
 }
 
-/* line 85, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 92, ../portfolio/bowling_bar/scss/_menu.scss */
 .dips-wrap .food-price,
 .side-dish-wrap .food-price {
   font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
+  text-align: center;
 }
 
-/* line 94, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 102, ../portfolio/bowling_bar/scss/_menu.scss */
 .drink-wrap {
   display: grid;
   grid-template-columns: 2fr 0.5fr 1fr;
@@ -666,9 +677,9 @@ header .title-wrap h2 span {
   font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
 }
 
-/* line 101, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 109, ../portfolio/bowling_bar/scss/_menu.scss */
 .drink-container {
-  padding: 1rem 0;
+  padding: 3rem 0;
   margin: 2rem 0;
   border: 1px solid;
   border-radius: 15px;
@@ -676,24 +687,24 @@ header .title-wrap h2 span {
   border-width: 15px;
 }
 
-/* line 110, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 118, ../portfolio/bowling_bar/scss/_menu.scss */
 .drink-name {
   text-align: left;
   padding-left: 35%;
 }
 
-/* line 115, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 123, ../portfolio/bowling_bar/scss/_menu.scss */
 .drink-liters {
   text-align: right;
 }
 
-/* line 119, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 127, ../portfolio/bowling_bar/scss/_menu.scss */
 .drink-price {
   text-align: left;
   padding-left: 5%;
 }
 
-/* line 125, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 133, ../portfolio/bowling_bar/scss/_menu.scss */
 .drink-heading {
   text-align: center;
   font-size: clamp(1.56rem, calc(0.38vw + 1.47rem), 1.78rem);
@@ -704,21 +715,50 @@ header .title-wrap h2 span {
   text-decoration-thickness: 3px;
 }
 
-/* line 142, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 150, ../portfolio/bowling_bar/scss/_menu.scss */
 .mixed-drinks-wrap .drink-name small,
 .bucket-4-wrap .drink-name small,
 .bucket-8-wrap .drink-name small {
   font-size: clamp(1rem, calc(0vw + 1rem), 1rem);
 }
 
-/* line 148, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 156, ../portfolio/bowling_bar/scss/_menu.scss */
 .bucket-8 {
   margin-bottom: 0;
 }
 
-/* line 152, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 160, ../portfolio/bowling_bar/scss/_menu.scss */
 .nealko {
   margin-top: 0;
+}
+
+@media (max-width: 900px) {
+  /* line 170, ../portfolio/bowling_bar/scss/_menu.scss */
+  .pizza-wrap .food-name {
+    font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
+  }
+  /* line 172, ../portfolio/bowling_bar/scss/_menu.scss */
+  .pizza-wrap .food-name small {
+    font-size: clamp(1rem, calc(0vw + 1rem), 1rem);
+  }
+  /* line 177, ../portfolio/bowling_bar/scss/_menu.scss */
+  .pizza-wrap .food-price {
+    font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
+    text-align: center;
+  }
+  /* line 186, ../portfolio/bowling_bar/scss/_menu.scss */
+  .dips-wrap .food-name,
+  .side-dish-wrap .food-name {
+    padding-left: 10%;
+  }
+  /* line 191, ../portfolio/bowling_bar/scss/_menu.scss */
+  .drink-name {
+    padding-left: 5%;
+  }
+  /* line 195, ../portfolio/bowling_bar/scss/_menu.scss */
+  .drink-price {
+    text-align: center;
+  }
 }
 
 /* line 2, ../portfolio/bowling_bar/scss/_games.scss */
