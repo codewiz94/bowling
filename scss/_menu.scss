@@ -61,6 +61,18 @@
     }
 }
 
+.food-container {
+    h3 {
+        padding: 2rem 0;
+    }
+}
+
+.food-price {
+    font-weight: 700;
+}
+
+
+
 // DIPS
 
 .dips-wrap,
@@ -86,6 +98,10 @@
     font-size: $fs-md;
 }
 
+.drink-container {
+    padding: 1rem 0;
+}
+
 .drink-name {
     text-align: left;
     padding-left: 35%;
@@ -105,6 +121,7 @@
     text-align: center;
     font-size: $fs-lg;
     color: $color-font-lt;
+    padding: 1rem 0;
 }
 
 
