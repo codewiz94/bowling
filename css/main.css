@@ -669,38 +669,56 @@ header .title-wrap h2 span {
 /* line 101, ../portfolio/bowling_bar/scss/_menu.scss */
 .drink-container {
   padding: 1rem 0;
+  margin: 2rem 0;
+  border: 1px solid;
+  border-radius: 15px;
+  border-style: double;
+  border-width: 15px;
 }
 
-/* line 105, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 110, ../portfolio/bowling_bar/scss/_menu.scss */
 .drink-name {
   text-align: left;
   padding-left: 35%;
 }
 
-/* line 110, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 115, ../portfolio/bowling_bar/scss/_menu.scss */
 .drink-liters {
   text-align: right;
 }
 
-/* line 114, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 119, ../portfolio/bowling_bar/scss/_menu.scss */
 .drink-price {
   text-align: left;
   padding-left: 5%;
 }
 
-/* line 120, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 125, ../portfolio/bowling_bar/scss/_menu.scss */
 .drink-heading {
   text-align: center;
   font-size: clamp(1.56rem, calc(0.38vw + 1.47rem), 1.78rem);
   color: #F5F5F5;
   padding: 1rem 0;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 3px;
 }
 
-/* line 134, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 142, ../portfolio/bowling_bar/scss/_menu.scss */
 .mixed-drinks-wrap .drink-name small,
 .bucket-4-wrap .drink-name small,
 .bucket-8-wrap .drink-name small {
   font-size: clamp(1rem, calc(0vw + 1rem), 1rem);
+}
+
+/* line 148, ../portfolio/bowling_bar/scss/_menu.scss */
+.bucket-8 {
+  margin-bottom: 0;
+}
+
+/* line 152, ../portfolio/bowling_bar/scss/_menu.scss */
+.nealko {
+  margin-top: 0;
 }
 
 /* line 2, ../portfolio/bowling_bar/scss/_games.scss */

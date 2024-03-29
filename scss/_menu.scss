@@ -100,6 +100,11 @@
 
 .drink-container {
     padding: 1rem 0;
+    margin: 2rem 0;
+    border: 1px solid;
+    border-radius: 15px;
+    border-style: double;
+    border-width: 15px;
 }
 
 .drink-name {
@@ -122,6 +127,9 @@
     font-size: $fs-lg;
     color: $color-font-lt;
     padding: 1rem 0;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 3px;
 }
 
 
@@ -135,4 +143,12 @@
             font-size: $fs-base;
         }
     }
+}
+
+.bucket-8 {
+    margin-bottom: 0;
+}
+
+.nealko {
+    margin-top: 0;
 }
