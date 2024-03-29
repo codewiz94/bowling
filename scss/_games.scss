@@ -15,6 +15,27 @@
     text-align: center;
 }
 
+.welcome-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: $fs-xxxl;
+    text-align: center;
+    padding: 2rem 0;
+
+    a {
+        color: $color-font-lt;
+        border: 2px solid;
+        padding: 1rem 2rem; 
+        border-radius: 10px;
+
+        &:hover,
+        &:active {
+            color: $color-icons-highlight;
+        }
+    }
+}
+
 .games-item {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -55,11 +76,15 @@
 .section-games-1 {
     background-color: $color-bg-games1;
     color: $color-font-lt;
+    border-top: 2px solid $color-font-dk;
+    border-bottom: 3px solid $color-icons-highlight;
 }
 
 .section-games-2 {
     background-color: $color-bg-games2;
     color: $color-font-dk;
+    border-bottom: 5px solid $color-font-dk;
 }
 
 
+//@media (max-width: 900px)
