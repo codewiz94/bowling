@@ -54,6 +54,10 @@
     column-gap: 20%;
     line-height: 2;
     font-size: $fs-md;
+
+    .food-description {
+        padding-left: 30%;
+    }
 }
 
 .food-price {
@@ -67,6 +71,7 @@
 
     .food-name {
         font-size: $fs-lg;
+        padding-left: 30%;
         small {
             font-size: $fs-md;
         }
@@ -100,7 +105,6 @@
 
     .food-price {
         font-size: $fs-md;
-        text-align: center;
     }
 }
 
@@ -182,9 +186,16 @@
 // MEDIA QUERIES
 
 @media (max-width: 900px) {
+
+    .food-wrap .food-description {
+        padding-left: 0;
+    }
+
+
     .pizza-wrap {
         .food-name {
             font-size: $fs-md;
+            padding-left: 0;
             small {
                 font-size: $fs-base;
             }
@@ -202,6 +213,9 @@
     .food-name {
         padding-left: 10%;
     }
+    .food-price {
+        text-align: center;
+    }
     }
 
     .drink-name {
@@ -213,4 +227,36 @@
     }
 
 
+}
+
+@media (max-width: 500px) {
+
+
+
+    .food-wrap {
+        display: block;
+        text-align: center;
+
+        .food-price {
+            padding: 1rem 0;
+        }
+    }
+
+    .dips-wrap,
+    .side-dish-wrap {
+
+    .food-name {
+        padding-left: 0;
+        }
+    }
+
+    .drink-wrap {
+        font-size: $fs-base;
+    }
+
+    .drink-container {
+        border-radius: 8px;
+        border-style: double;
+        border-width: 8px;
+    }
 }
