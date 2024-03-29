@@ -582,7 +582,18 @@ header .title-wrap h2 span {
   color: #F5F5F5;
 }
 
+/* line 13, ../portfolio/bowling_bar/scss/_menu.scss */
+.section-menu-food {
+  border-top: 2px solid #F5F5F5;
+}
+
 /* line 17, ../portfolio/bowling_bar/scss/_menu.scss */
+.section-menu-drinks {
+  padding-bottom: 3rem;
+  border-bottom: 2px solid #F5F5F5;
+}
+
+/* line 26, ../portfolio/bowling_bar/scss/_menu.scss */
 .menu-food h2,
 .menu-drinks h2 {
   color: #F5F5F5;
@@ -592,7 +603,7 @@ header .title-wrap h2 span {
   padding-top: 2rem;
 }
 
-/* line 25, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 34, ../portfolio/bowling_bar/scss/_menu.scss */
 .menu-food p,
 .menu-drinks p {
   color: #F5F5F5;
@@ -601,18 +612,18 @@ header .title-wrap h2 span {
   font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
 }
 
-/* line 33, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 42, ../portfolio/bowling_bar/scss/_menu.scss */
 .food-heading {
   text-align: center;
   font-size: clamp(1.56rem, calc(0.38vw + 1.47rem), 1.78rem);
 }
 
-/* line 37, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 46, ../portfolio/bowling_bar/scss/_menu.scss */
 .food-heading small {
   font-size: clamp(1rem, calc(0vw + 1rem), 1rem);
 }
 
-/* line 42, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 51, ../portfolio/bowling_bar/scss/_menu.scss */
 .food-wrap {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -621,55 +632,55 @@ header .title-wrap h2 span {
   font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
 }
 
-/* line 50, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 59, ../portfolio/bowling_bar/scss/_menu.scss */
 .food-price {
   font-size: clamp(1.56rem, calc(0.38vw + 1.47rem), 1.78rem);
 }
 
-/* line 55, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 64, ../portfolio/bowling_bar/scss/_menu.scss */
 .pizza-wrap {
   padding: 1rem 0;
 }
 
-/* line 59, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 68, ../portfolio/bowling_bar/scss/_menu.scss */
 .pizza-wrap .food-name {
   font-size: clamp(1.56rem, calc(0.38vw + 1.47rem), 1.78rem);
 }
 
-/* line 61, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 70, ../portfolio/bowling_bar/scss/_menu.scss */
 .pizza-wrap .food-name small {
   font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
 }
 
-/* line 68, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 77, ../portfolio/bowling_bar/scss/_menu.scss */
 .food-container h3 {
   padding: 2rem 0;
 }
 
-/* line 73, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 82, ../portfolio/bowling_bar/scss/_menu.scss */
 .food-price {
   font-weight: 700;
 }
 
-/* line 81, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 90, ../portfolio/bowling_bar/scss/_menu.scss */
 .dips-wrap {
   row-gap: 1rem;
 }
 
-/* line 88, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 97, ../portfolio/bowling_bar/scss/_menu.scss */
 .dips-wrap .food-name,
 .side-dish-wrap .food-name {
   padding-left: 35%;
 }
 
-/* line 92, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 101, ../portfolio/bowling_bar/scss/_menu.scss */
 .dips-wrap .food-price,
 .side-dish-wrap .food-price {
   font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
   text-align: center;
 }
 
-/* line 102, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 111, ../portfolio/bowling_bar/scss/_menu.scss */
 .drink-wrap {
   display: grid;
   grid-template-columns: 2fr 0.5fr 1fr;
@@ -677,9 +688,10 @@ header .title-wrap h2 span {
   font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
 }
 
-/* line 109, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 118, ../portfolio/bowling_bar/scss/_menu.scss */
 .drink-container {
-  padding: 3rem 0;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
   margin: 2rem 0;
   border: 1px solid;
   border-radius: 15px;
@@ -687,75 +699,82 @@ header .title-wrap h2 span {
   border-width: 15px;
 }
 
-/* line 118, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 128, ../portfolio/bowling_bar/scss/_menu.scss */
 .drink-name {
   text-align: left;
   padding-left: 35%;
 }
 
-/* line 123, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 133, ../portfolio/bowling_bar/scss/_menu.scss */
 .drink-liters {
   text-align: right;
 }
 
-/* line 127, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 137, ../portfolio/bowling_bar/scss/_menu.scss */
 .drink-price {
   text-align: left;
   padding-left: 5%;
 }
 
-/* line 133, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 143, ../portfolio/bowling_bar/scss/_menu.scss */
 .drink-heading {
   text-align: center;
   font-size: clamp(1.56rem, calc(0.38vw + 1.47rem), 1.78rem);
   color: #F5F5F5;
-  padding: 1rem 0;
+  padding: 2.5rem 0;
   text-decoration: underline;
   text-underline-offset: 6px;
   text-decoration-thickness: 3px;
 }
 
-/* line 150, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 160, ../portfolio/bowling_bar/scss/_menu.scss */
 .mixed-drinks-wrap .drink-name small,
 .bucket-4-wrap .drink-name small,
 .bucket-8-wrap .drink-name small {
   font-size: clamp(1rem, calc(0vw + 1rem), 1rem);
 }
 
-/* line 156, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 166, ../portfolio/bowling_bar/scss/_menu.scss */
+.mixed-drinks-wrap,
+.bucket-4-wrap,
+.bucket-8-wrap {
+  row-gap: 1rem;
+}
+
+/* line 172, ../portfolio/bowling_bar/scss/_menu.scss */
 .bucket-8 {
   margin-bottom: 0;
 }
 
-/* line 160, ../portfolio/bowling_bar/scss/_menu.scss */
+/* line 176, ../portfolio/bowling_bar/scss/_menu.scss */
 .nealko {
   margin-top: 0;
 }
 
 @media (max-width: 900px) {
-  /* line 170, ../portfolio/bowling_bar/scss/_menu.scss */
+  /* line 186, ../portfolio/bowling_bar/scss/_menu.scss */
   .pizza-wrap .food-name {
     font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
   }
-  /* line 172, ../portfolio/bowling_bar/scss/_menu.scss */
+  /* line 188, ../portfolio/bowling_bar/scss/_menu.scss */
   .pizza-wrap .food-name small {
     font-size: clamp(1rem, calc(0vw + 1rem), 1rem);
   }
-  /* line 177, ../portfolio/bowling_bar/scss/_menu.scss */
+  /* line 193, ../portfolio/bowling_bar/scss/_menu.scss */
   .pizza-wrap .food-price {
     font-size: clamp(1.25rem, calc(0.15vw + 1.21rem), 1.33rem);
     text-align: center;
   }
-  /* line 186, ../portfolio/bowling_bar/scss/_menu.scss */
+  /* line 202, ../portfolio/bowling_bar/scss/_menu.scss */
   .dips-wrap .food-name,
   .side-dish-wrap .food-name {
     padding-left: 10%;
   }
-  /* line 191, ../portfolio/bowling_bar/scss/_menu.scss */
+  /* line 207, ../portfolio/bowling_bar/scss/_menu.scss */
   .drink-name {
     padding-left: 5%;
   }
-  /* line 195, ../portfolio/bowling_bar/scss/_menu.scss */
+  /* line 211, ../portfolio/bowling_bar/scss/_menu.scss */
   .drink-price {
     text-align: center;
   }

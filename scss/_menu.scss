@@ -10,6 +10,15 @@
     color: $color-font-lt;
 }
 
+.section-menu-food {
+    border-top: 2px solid $color-font-lt;
+}
+
+.section-menu-drinks {
+    padding-bottom: 3rem;
+    border-bottom: 2px solid $color-font-lt;
+}
+
 // SECTION MENU FOOD
 
 .menu-food,
@@ -107,7 +116,8 @@
 }
 
 .drink-container {
-    padding: 3rem 0;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
     margin: 2rem 0;
     border: 1px solid;
     border-radius: 15px;
@@ -134,7 +144,7 @@
     text-align: center;
     font-size: $fs-lg;
     color: $color-font-lt;
-    padding: 1rem 0;
+    padding: 2.5rem 0;
     text-decoration: underline;
     text-underline-offset: 6px;
     text-decoration-thickness: 3px;
@@ -151,6 +161,12 @@
             font-size: $fs-base;
         }
     }
+}
+
+.mixed-drinks-wrap,
+.bucket-4-wrap,
+.bucket-8-wrap {
+    row-gap: 1rem;
 }
 
 .bucket-8 {
